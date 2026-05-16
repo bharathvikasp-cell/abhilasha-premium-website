@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CTA() {
   return (
     <section className="px-6 py-16 sm:px-10 md:py-24">
-      <div className="mx-auto max-w-6xl overflow-hidden rounded-[2rem] bg-gradient-to-br from-lavender-700 via-lavender-600 to-plum p-8 text-white shadow-glow sm:p-12 md:p-16">
+      <div className="mx-auto max-w-6xl overflow-hidden rounded-[2rem] bg-deep-purple p-8 text-white shadow-glow sm:p-12 md:p-16">
         <div className="grid gap-8 md:grid-cols-[1.4fr_0.8fr] md:items-center">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.22em] text-lavender-100">Stand with Abhilasha</p>

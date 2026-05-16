@@ -21,7 +21,7 @@ export default function AboutPage() {
           {[
             ["Our Story", "Abhilasha grew from a simple promise: children with special needs deserve a place where care is consistent, progress is celebrated, and families feel supported."],
             ["Mission", "To empower children through special education, therapy, life skills, and compassionate guidance that strengthens independence and self-worth."],
-            ["Vision", "To become a trusted rehabilitation center where every child is seen, heard, included, and encouraged to reach their fullest potential."],
+            ["Vision", "To become a trusted rehabilitation centre where every child is seen, heard, included, and encouraged to reach their fullest potential."],
             ["Why We Exist", "Families often need more than appointments. They need a caring ecosystem of teachers, therapists, and support staff who walk alongside them with patience."],
             ["Our Approach", "We combine individualized education, therapeutic support, structured routines, emotional care, and parent guidance to nurture steady development."],
             ["Our Promise", "We honor every child’s pace. We protect dignity. We build confidence through consistency, kindness, and skilled support."],

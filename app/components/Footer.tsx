@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <Image src="/logo.png" alt="Abhilasha logo" width={52} height={52} className="rounded-2xl bg-white" />
             <div>
-              <p className="font-serif text-xl font-semibold">Abhilasha Rehabilitation Center</p>
+              <p className="font-serif text-xl font-semibold">Abhilasha Rehabilitation Centre</p>
               <p className="text-sm text-white/70">Compassionate care for special lives</p>
             </div>
           </div>
@@ -41,15 +41,16 @@ export default function Footer() {
         <div>
           <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-lavender-200">Connect</h3>
           <div className="mt-5 space-y-3 text-sm text-white/75">
-            <p>Andhra Pradesh, India</p>
-            <p>abhilasha@example.com</p>
-            <p>+91 XXXXX XXXXX</p>
+            <p>Plot No. 27, Vikrampuri, Secunderabad - 500009, Telangana, India</p>
+            <p>abhilashatrusthyd@gmail.com</p>
+            <p>7981520245</p>
+            <p>www.abhilashakids.com</p>
             <p className="pt-2 text-white/55">Instagram · Facebook · YouTube</p>
           </div>
         </div>
       </div>
       <div className="border-t border-white/10 px-6 py-5 text-center text-xs text-white/55">
-        © {new Date().getFullYear()} Abhilasha Rehabilitation Center. All rights reserved.
+        © {new Date().getFullYear()} Abhilasha Rehabilitation Centre. All rights reserved.
       </div>
     </footer>
   );

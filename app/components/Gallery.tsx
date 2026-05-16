@@ -49,7 +49,7 @@ export default function Gallery() {
             rel="noopener noreferrer"
             className="inline-flex rounded-full bg-lavender-700 px-7 py-4 text-sm font-bold text-white shadow-glow transition hover:bg-lavender-800"
           >
-            View Full Gallery on Google Drive
+            View Full Gallery
           </Link>
         </div>
       </div>

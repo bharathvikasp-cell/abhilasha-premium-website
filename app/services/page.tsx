@@ -1,17 +1,16 @@
 import CTA from "../components/CTA";
 import ServiceCard from "../components/ServiceCard";
+import { Activity, BookOpenCheck, Brain, HeartHandshake, MessageCircle, Puzzle, Sprout, UserRoundCheck } from "lucide-react";
 
 const services = [
-  ["Special Education", "Personalized learning plans that support communication, cognition, social readiness, and school participation."],
-  ["Speech Therapy", "Communication support focused on expression, comprehension, speech clarity, and functional interaction."],
-  ["Physiotherapy", "Movement, posture, balance, strengthening, and physical confidence through guided therapeutic routines."],
-  ["Early Intervention", "Developmental support for young children during the most important years of growth and adaptation."],
-  ["Behavioral Support", "Gentle behavior guidance that builds routines, emotional regulation, and positive participation."],
-  ["Emotional Development", "Safe, patient support for confidence, social connection, self-expression, and emotional resilience."],
-  ["Parent Guidance", "Practical family guidance to continue learning, therapy routines, and emotional support at home."],
-  ["Life Skills", "Daily living skills that help children participate more independently in routines and community life."],
-  ["Vocational Training", "Age-appropriate preparation for meaningful activity, responsibility, and skill-based confidence."],
-  ["Independence Training", "Structured support for self-care, communication, decision-making, and everyday confidence."],
+  { title: "Special Education", description: "Personalized learning plans that support communication, cognition, social readiness, and school participation.", Icon: BookOpenCheck },
+  { title: "Speech Therapy", description: "Communication support focused on expression, comprehension, speech clarity, and functional interaction.", Icon: MessageCircle },
+  { title: "Physiotherapy", description: "Movement, posture, balance, strengthening, and physical confidence through guided therapeutic routines.", Icon: Activity },
+  { title: "Occupational Therapy", description: "Functional independence, sensory support, fine-motor development, and daily living participation.", Icon: Puzzle },
+  { title: "Behaviour Modification", description: "Positive behavior guidance that builds routine, regulation, social readiness, and emotional safety.", Icon: Brain },
+  { title: "Psychology & Counselling", description: "Compassionate counselling and emotional support for children, parents, and caregivers.", Icon: HeartHandshake },
+  { title: "Life Skills", description: "Daily living skills that help children participate more independently in routines and community life.", Icon: UserRoundCheck },
+  { title: "Early Intervention", description: "Developmental support for young children during the most important years of growth and adaptation.", Icon: Sprout },
 ];
 
 export default function ServicesPage() {
@@ -31,8 +30,8 @@ export default function ServicesPage() {
       </section>
       <section className="bg-white px-6 py-16 sm:px-10 md:py-24">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {services.map(([title, description]) => (
-            <ServiceCard key={title} title={title} description={description} />
+          {services.map((service) => (
+            <ServiceCard key={service.title} title={service.title} description={service.description} Icon={service.Icon} />
           ))}
         </div>
       </section>

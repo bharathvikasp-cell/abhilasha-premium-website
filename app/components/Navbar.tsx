@@ -35,7 +35,7 @@ export default function Navbar() {
               Abhilasha
             </span>
             <span className="block truncate text-[11px] font-medium text-lavender-700 sm:text-xs">
-              Rehabilitation Center
+              Rehabilitation Centre
             </span>
           </span>
         </Link>

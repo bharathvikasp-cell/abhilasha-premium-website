@@ -47,3 +47,16 @@ body {
 .animate-gallery-scroll {
   animation: gallery-scroll 34s linear infinite;
 }
+
+@keyframes float-soft {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(12px, -18px, 0) scale(1.04);
+  }
+}
+
+.animate-float-soft {
+  animation: float-soft 8s ease-in-out infinite;
+}
