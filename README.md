@@ -10,7 +10,7 @@ A production-ready, premium Next.js App Router website for Abhilasha Rehabilitat
 - Working FormSubmit contact form, success page, and validation
 - Official ARC logo optimized for web, navbar, footer, and favicon
 - Google Maps CTA for the Secunderabad location
-- Safe Google Drive gallery link without scraping
+- Optimized local photo gallery with safe Google Drive full-gallery link
 - Netlify-compatible Next.js deployment configuration
 
 ## Organization Details
@@ -65,4 +65,4 @@ npm run build
 
 ## Notes
 
-The gallery uses premium local placeholder cards and links safely to the provided Google Drive folder. It intentionally does not auto-fetch Google Drive images.
+The gallery uses optimized local photography and links safely to the provided Google Drive folder. It intentionally does not auto-fetch or scrape Google Drive images.

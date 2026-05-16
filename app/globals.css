@@ -45,7 +45,11 @@ body {
 }
 
 .animate-gallery-scroll {
-  animation: gallery-scroll 34s linear infinite;
+  animation: gallery-scroll 78s linear infinite;
+}
+
+.animate-gallery-scroll:hover {
+  animation-play-state: paused;
 }
 
 @keyframes float-soft {
