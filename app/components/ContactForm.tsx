@@ -6,7 +6,7 @@ export default function ContactForm() {
   const [submitting, setSubmitting] = useState(false);
   const nextUrl = useMemo(() => {
     if (typeof window === "undefined") {
-      return "https://www.abhilashakids.com/contact/success";
+      return "https://www.abhilasharehabilitationcenter.org/contact/success";
     }
     return `${window.location.origin}/contact/success`;
   }, []);

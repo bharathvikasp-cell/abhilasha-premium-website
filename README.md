@@ -20,7 +20,7 @@ Plot No. 27, Opp Kharkhana KFC, Behind HDFC Bank, Vikrampuri, Secunderabad - 500
 
 - Phone: `7981520245`
 - Email: `abhilashatrusthyd@gmail.com`
-- Website: `www.abhilashakids.com`
+- Website: `www.abhilasharehabilitationcenter.org`
 
 ## Technology
 

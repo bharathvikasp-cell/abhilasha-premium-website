@@ -44,7 +44,7 @@ export default function Footer() {
             <p>Plot No. 27, Vikrampuri, Secunderabad - 500009, Telangana, India</p>
             <p>abhilashatrusthyd@gmail.com</p>
             <p>7981520245</p>
-            <p>www.abhilashakids.com</p>
+            <p>www.abhilasharehabilitationcenter.org</p>
             <p className="pt-2 text-white/55">Instagram · Facebook · YouTube</p>
           </div>
         </div>

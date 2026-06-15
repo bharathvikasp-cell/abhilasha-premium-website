@@ -25,7 +25,7 @@ export default function ContactPage() {
             </div>
             <p className="flex items-center gap-3 text-plum/70"><Phone className="h-5 w-5 text-lavender-700" /> 7981520245</p>
             <p className="flex items-center gap-3 text-plum/70"><Mail className="h-5 w-5 text-lavender-700" /> abhilashatrusthyd@gmail.com</p>
-            <p className="flex items-center gap-3 text-plum/70"><Globe2 className="h-5 w-5 text-lavender-700" /> www.abhilashakids.com</p>
+            <p className="flex items-center gap-3 text-plum/70"><Globe2 className="h-5 w-5 text-lavender-700" /> www.abhilasharehabilitationcenter.org</p>
             <a href="https://wa.me/917981520245" className="inline-flex items-center gap-2 rounded-full bg-lavender-700 px-6 py-3 text-sm font-bold text-white shadow-glow transition hover:bg-lavender-800">
               <MessageCircle className="h-4 w-4" /> WhatsApp Us
             </a>
